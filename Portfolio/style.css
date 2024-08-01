@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    color: #fff;
+    padding: 1.5em 0;
+}
+
+header .header-image img {
+    border-radius: 50%;
+    max-width: 120px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0077b6;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer .social-icons a {
+    color: #fff;
+}
+
+footer .social-icons a:hover {
+    color: #0077b6;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #0077b6;
+}
+
+.card {
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #0077b6;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #0077b6;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+}
+
+/* Section Borders */
+#career-objective, #qualifications, #skills, #projects, #certifications, #contact {
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    padding: 1.5em;
+    background-color: #fff;
+    margin-bottom: 2em;
+}
+
+/* Card Borders */
+.card {
+    border: 2px solid #0077b6;
+}
